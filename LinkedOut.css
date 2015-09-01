@@ -1,0 +1,137 @@
+body{
+/*	background-image: url('a.jpg');*/
+	background-repeat:no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.headerRefs{
+	text-decoration: none;
+	color: #29629B;
+}
+
+#headerRefsLinkedIn{
+	margin-left: 960px;
+	margin-top: -58px;
+	float: left;
+}
+
+#headerRefsAboutUs{
+	margin-left: 1090px;
+	margin-top: -58px;
+}
+#headerRefsSignIn{
+	margin-left: 1210px;
+	margin-top: -47px;
+}
+
+#descrptnDiv {
+	width: 800px;
+	height: 97px;
+	margin-left: 100px;
+	margin-top: 80px;
+	font-size: 20px;
+	font-family: Tahoma;
+}
+
+#descrptnPara {
+	padding-right: 30px;
+}
+
+#signUpMainDiv{
+	width: 295px;
+	height: 500px;
+	margin-top: -165px;
+	margin-left: 962px;
+	background-color: #F0F0F0;
+	border: 1px solid #D0D0D0;
+	padding:2px 2px 2px 2px;
+}
+
+#signUpImg {
+	margin-top: 27px;
+	margin-left: 50px;
+	width: 180px;
+	height: 50px;
+}
+
+#signUpTxt{
+	margin-top: 30px;
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+#formDiv {
+	margin-top: 5px;
+}
+
+#formInputName{
+	width: 275px;height: 31px; font-size: 16px; padding: 0px 10px 0px 10px;color: #000;margin-left: 9px; margin-top: 10px;
+}
+
+#formInputPassword{
+	width: 275px;height: 31px; font-size: 16px; padding: 0px 10px 0px 10px;color: #000;margin-left: 9px; margin-top: 5px;
+}
+
+#formInputGenderDiv{
+	padding-left: 5px; margin-top: 10px;
+}
+
+#formInputGenderTxt{
+	margin-left: 5px; font-size:18px;font-weight: bold;
+}
+
+#formInputDobDiv{
+	margin-left: 10px; font-size:18px;font-weight: bold;
+}
+
+#formInputDobMonth{
+	 margin-left: 10px;height: 25px;width: 123px;
+}
+
+#formInputDobDay{
+	margin-left: 0px;height: 25px; width: 64px;
+}
+
+#formInputDobYear{
+	margin-left: 0px;height: 25px; width: 80px; padding-left: 4px;
+}
+
+#formInputAcptDiv{
+	margin-top: 20px;
+}
+
+#formInputCheckBox{
+	margin-left: 10px;
+}
+
+#formInputCheckBoxTextDiv{
+	margin-top: -20px; margin-left: 30px; padding-right: 30px;
+}
+
+#formInputCheckBoxTextDivTxt{
+	font-size: 14px;
+}
+
+#formInputSbmt{
+	width: 275px; height: 33px;  font-size: 18px;  padding: 0px 5px 0px 5px; border: 0px;   color: #F0F0F0;  background-color: #237818; margin-top: 10px; margin-left: 11px;
+}
+
+#tableDiv{
+	margin-top: -300px; margin-left: 100px;
+}
+#listDiv{
+	margin-top: 50px; margin-left: 100px;
+}
+
+ol dl dt li h3 a {
+	text-decoration: none;
+	color: #0C3C6D;	
+}
+
+ol dl dd {
+	text-decoration: none;
+	color: #0C3C6D;
+	margin-top: -10px;
+}
+

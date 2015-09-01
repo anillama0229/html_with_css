@@ -1,0 +1,206 @@
+<!--
+Author Name: Anil Lama
+Page Name: LinkedOut
+Description: This page is done for educational purpose and as an assignment of Web Technologies
+-->
+
+<html>
+	<head>
+		<title>LinkedOut</title>
+		<link rel = "stylesheet" type = "text/css" href = "LinkedOut.css" />
+        
+        
+	</head>
+	
+	<body>
+		<div>
+			<div>
+				<img src = "linkedout.jpg"/>
+			</div>
+            <div id = "headerRefsLinkedIn">
+				<a href="https://www.linkedin.com/" target="_blank" class= "headerRefs"><h2>LinkedIn</h2></a>
+			</div>
+            <div id = "headerRefsAboutUs">
+				<a href="" class = "headerRefs"><h2>AboutUs</h2></a>
+			</div>
+            <div id = "headerRefsSignIn">
+				<a href="" class = "headerRefs"><h2>Sign In</h2></a>
+			</div>
+            
+		</div>
+        <hr>
+		
+		<div id = "descrptnDiv">
+			<p id = "descrptnPara">
+				LinkedOut provides you with an interface to present your technical profile to the world from a single location. It works as a medium to search for skilled, trained, educated and as per required technical individuals for different companies and organizations. <br>It is a worldwide service hence connects technical people throughout the globe.
+			</p>
+		</div>
+        
+        <div id = "signUpMainDiv" >  
+        	<img src="linkedout.jpg" id = "signUpImg">    
+        	<div id = "signUpTxt"><strong>Sign Up</strong></div>
+        
+        	<div id = "formDiv">
+	        	<form>
+    	    		<input type="text" placeholder="Name" id = "formInputName" onChange="nameValidate();">
+        	    	<input type="password" placeholder="Email Address" id = "formInputPassword"><br>
+                    <div id = "formInputGenderDiv">
+	                    <span id = "formInputGenderTxt" >Gender</span><br>
+		                <input type="radio" name = "Sex">Male                    
+    		            <input type="radio" name = "Sex">Female
+                    </div>
+                	<br>
+                    
+                    <div id = "formInputDobDiv">Date of Birth</div>
+                    <select id = "formInputDobMonth">
+						<option>Month</option> 
+            			<option>January</option> 
+						<option>February</option>
+						<option>March</option>
+        	    		<option>April</option> 
+						<option>May</option>
+						<option>June</option>
+        		    	<option>July</option> 
+						<option>August</option>
+						<option>September</option>
+			            <option>October</option> 
+						<option>November</option>
+						<option>December</option>
+					</select>
+                    
+                    <select id = "formInputDobDay">
+						<option>Day</option> 
+        			    <option>1</option> 
+						<option>2</option>
+						<option>3</option> 
+			            <option>4</option> 
+						<option>5</option>
+						<option>6</option>
+            			<option>7</option> 
+						<option>8</option>
+						<option>9</option>
+            			<option>10</option> 
+						<option>11</option>
+						<option>12</option>
+			            <option>13</option>
+            			<option>14</option> 
+			            <option>15</option> 
+						<option>16</option>
+						<option>17</option>
+		        	    <option>18</option> 
+						<option>19</option>
+						<option>20</option>
+	    		        <option>21</option> 
+						<option>22</option>
+						<option>23</option>
+		        	    <option>24</option>
+    	        		<option>25</option> 
+	        		    <option>26</option> 
+						<option>27</option>
+						<option>28</option>
+    		    	    <option>29</option> 
+						<option>30</option>
+						<option>31</option>
+    	        		<option>32</option> 
+					</select>
+                    
+                    <input id = "formInputDobYear" type="text" placeholder="Year" maxlength="4">
+                    
+                    <br>
+                    
+                    <div id = "formInputAcptDiv">
+    					<input type="checkbox" id="formInputCheckBox" checked>
+    	    			<div id = "formInputCheckBoxTextDiv">
+            				<a id = "formInputCheckBoxTextDivTxt">
+                            	Yes, I accept the Single Sign-On</a> <a href="" style="font-size: 15px;">Terms of Use</a><a style="font-size: 14px;"> and the Single Sign-On </a><a href="" style="font-size: 15px;">Privacy Statement</a>
+            			</div>
+    				</div>
+                    
+                    <br>
+            		<input id = "formInputSbmt" type="submit" value="Sign Up">                
+				</form>
+	        </div>    
+        	
+        </div>
+        
+        
+        
+            
+            
+            <div id = "tableDiv">
+            
+            	<h3>Below shows the statistics of LinkedOut users since 2010.</h3>
+            
+            	<table border = "1" style = "width: 760px;">
+                	<th style="color: #0C3C6D;">S.N</th>
+                	<th style="color: #0C3C6D;">Number of Users</th>
+                	<th style="color: #0C3C6D;">Year</th>
+                	<th style="color: #0C3C6D;">User's Growth Rate</th>
+                    
+                    <tr>
+                    	<td style = "text-align: center;">1</td>
+                    	<td style = "text-align: center;">1057</td>
+                    	<td style = "text-align: center;">2010</td>
+                    	<td style = "text-align: center;">-</td>
+                    </tr>
+                    
+                    <tr>
+                    	<td style = "text-align: center;">2</td>
+                    	<td style = "text-align: center;">190237</td>
+                    	<td style = "text-align: center;">2011</td>
+                    	<td style = "text-align: center;">170%</td>
+                    </tr>
+                    
+                    <tr>
+                    	<td style = "text-align: center;">3</td>
+                    	<td style = "text-align: center;">982393</td>
+                    	<td style = "text-align: center;">2012</td>
+                    	<td style = "text-align: center;">7%</td>
+                    </tr>
+                    
+                    <tr>
+                    	<td style = "text-align: center;">4</td>
+                    	<td style = "text-align: center;">290237</td>
+                    	<td style = "text-align: center;">2013</td>
+                    	<td style = "text-align: center;">3%</td>
+                    </tr>
+                    
+                    <tr>
+                    	<td style = "text-align: center;">5</td>
+                    	<td style = "text-align: center;">532834</td>
+                    	<td style = "text-align: center;">2014</td>
+                    	<td style = "text-align: center;">2%</td>
+                    </tr>
+                    
+                    <tr>
+                    	<td style = "text-align: center;">6</td>
+                    	<td style = "text-align: center;">772671</td>
+                    	<td style = "text-align: center;">2015</td>
+                    	<td style = "text-align: center;">-</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id = "listDiv">            	
+                <h3>Most popular LinkedOut users.</h3>
+                
+                <ol>
+                	<dl>
+                		<dt><li><h3><a href = "">Anil Lama</a></h3></li></dt>
+                        <dd>Software Engineer</dd>
+                    
+                		<dt><li><h3><a href = "">Sunita Gurung</a></h3></li></dt>
+                        <dd>Nurse</dd>
+                        
+	                	<dt><li><h3><a href = "">Amir Lama</a></h3></li></dt>
+                        <dd>Chef</dd>
+                        
+    	            	<dt><li><h3><a href = "">Sirjana Lama</a></h3></li></dt>
+                        <dd>Beautician</dd>
+                    </dl>                       
+                </ol>
+                
+            </div>
+        
+	</body>
+</html>
